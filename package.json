@@ -1,0 +1,30 @@
+{
+    "publisher": "DenisJNewb",
+    "name": "vscode-angularpack",
+    "displayName": "VSCode.AngularPack",
+    "description": "Extensions for angular",
+    "version": "1.0.0",
+    "repository": {
+        "url": "https://github.com/DenisJNewb/VSCode.AngularPack"
+    },
+    "engines": {
+        "vscode": "^1.8.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "Angular.ng-template",
+        "obenjiro.arrr",
+        "dbaeumer.vscode-eslint",
+        "eamodio.gitlens",
+        "nrwl.angular-console",
+        "esbenp.prettier-vscode"
+    ],
+    "scripts": {
+        "deploy": "vsce publish"
+    },
+    "devDependencies": {
+        "vsce": "^2.6.7"
+    }
+}
